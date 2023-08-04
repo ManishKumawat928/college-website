@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <!-- Import poppins -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+
+    <title>Document</title>
+</head>
+
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href=""><img src="img/logo.png"></a>
+            <div class="homeburger">
+                <div class="line"></div>
+                <div class="line"></div>
+                <div class="line"></div>
+            </div>
+            <div class="nav-links">
+                <ul>
+                    <li><a href="/index">HOME</a></li>
+                    <li><a href="/about">ABOUT</a></li>
+                    <li><a href="/course">COURSE</a></li>
+                    <li><a href="/blog">BLOG</a></li>
+                    <li><a href="/contact">CONTACT</a></li>
+                    <li><a href="/">REGISTER</a></li>
+                </ul>
+            </div>
+        </nav>
+
+        <h1>About Us</h1>
+
+    </section>
+
+
+    <!-- About us contect -->
+    <section class="about-us">
+        <div class="row">
+            <div class="about-col">
+                <h1>This is the best university in sikar</h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Esse velit similique natus eveniet? Culpa
+                    necessitatibus magni animi tempore corporis repudiandae neque voluptates voluptas nulla. Qui,
+                    aperiam. Aliquam quia nam blanditiis! Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                    Dolor laudantium, omnis ratione voluptatibus voluptas nemo culpa ducimus eveniet sed sint magnam vel
+                    dolores, sit nihilin.</p>
+                    <a href="" class="hero-btn red-btn">EXPLORE NOW</a>
+            </div>
+            <div class="about-col">
+                <img src="img/about.jpg" alt="">
+            </div>
+        </div>
+    </section>
+    <!-- Footer -->
+    <section class="footer">
+        <h4>About Us</h4>
+        <h5>Mahatma Gandhi <br>
+        P.G. College, Shrimadhopur (Sikar) Raj. established in 2006 under the 
+        society of Naval Shikshan Sansthan</h5>
+        <div class="icons">
+            <!-- icons -->
+        </div>
+    </section>
+    <script>
+        const homeburger = document.querySelector(".homeburger");
+        homeburger.onclick = function () {
+            const navBar = document.querySelector(".nav-links");
+            navBar.classList.toggle("active");
+        }
+    </script>
+</body>
+
+</html>

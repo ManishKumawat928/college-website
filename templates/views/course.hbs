@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <!-- Import poppins -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+
+    <title>Document</title>
+</head>
+
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href=""><img src="img/logo.png"></a>
+            <div class="homeburger">
+                <div class="line"></div>
+                <div class="line"></div>
+                <div class="line"></div>
+            </div>
+            <div class="nav-links">
+                <ul>
+                    <li><a href="/index">HOME</a></li>
+                    <li><a href="/about">ABOUT</a></li>
+                    <li><a href="/course">COURSE</a></li>
+                    <li><a href="/blog">BLOG</a></li>
+                    <li><a href="/contact">CONTACT</a></li>
+                    <li><a href="/">REGISTER</a></li>
+                </ul>
+            </div>
+        </nav>
+
+        <h1>Over Courses</h1>
+
+    </section>
+
+
+    <!-- Course -->
+    <section class="course">
+        <h1>Course We Offer</h1>
+           <p>It's all a professional course that prepare teacher to teach sec. &
+        sr.sec. classes</p>
+
+        <div class="row">
+            <div class="course-col">
+                <h3>Under Graduation</h3>
+                <p>Undergraduate education is education conducted after secondary
+            education and before postgraduate education. It typically includes
+            all postsecondary programs up to the level of a bachelor's degree.</p>
+            </div>
+            <div class="course-col">
+                <h3>Deploma Courses</h3>
+              <p>a "Diploma", a qualification granted by vocational education and
+            training (VET) sector or university. It is typically completed with
+            12 to 18 months of full-time study. When accepted for credit as part
+            of a bachelor's degree, it is usually deemed to be equivalent to the
+            first year of the degree.</p>
+            </div>
+            <div class="course-col">
+                <h3>Post Graduation</h3>
+                <p>These are sometimes placed in a further hierarchy, starting with
+            degrees such as the Master of Arts (from Latin Magister artium;
+            M.A.) and Master of Science (from Latin Magister scientiae; M.Sc.)
+            degrees, then the Master of Philosophy degree (from Latin Magister
+            philosophiae; M.Phil.).</p>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Facilities -->
+    <section class="facilities">
+        <h1>Our Facilities</h1>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolor alias veniam maxime laborum eligendi
+        <div class="row">
+            <div class="facilities-col">
+                <img src="img/chemistry-lab.jpg">
+                <h3>Chemestry Lab</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro nesciunt, ad amet quibusdam esse autem
+                    laboriosam sapiente voluptatum quae rerum, obcaecati ullam? Dolorem enim rem culpa magni iure!
+                    Magnam, laborum.</p>
+            </div>
+            <div class="facilities-col">
+                <img src="img/sport2.jpg">
+                <h3>Playground</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro nesciunt, ad amet quibusdam esse autem
+                    laboriosam sapiente voluptatum quae rerum, obcaecati ullam? Dolorem enim rem culpa magni iure!
+                    Magnam, laborum.</p>
+            </div>
+            <div class="facilities-col">
+                <img src="img/bio.jpg">
+                <h3>Biology Lab</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro nesciunt, ad amet quibusdam esse autem
+                    laboriosam sapiente voluptatum quae rerum, obcaecati ullam? Dolorem enim rem culpa magni iure!
+                    Magnam, laborum.</p>
+            </div>
+        </div>
+
+    </section>
+
+
+
+    
+    <!-- Footer -->
+    <section class="footer">
+        <h4>About Us</h4>
+       <h5>Mahatma Gandhi <br>
+        P.G. College, Shrimadhopur (Sikar) Raj. established in 2006 under the 
+        society of Naval Shikshan Sansthan</h5>
+        <div class="icons">
+            <!-- icons -->
+        </div>
+    </section>
+    <script>
+        const homeburger = document.querySelector(".homeburger");
+        homeburger.onclick = function () {
+            const navBar = document.querySelector(".nav-links");
+            navBar.classList.toggle("active");
+        }
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,237 @@
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/style.css" />
+    <!-- Import poppins -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+
+    <!--==Using-Font-Awesome======================-->
+    <script
+      src="https://kit.fontawesome.com/ae3954b2c2.js"
+      crossorigin="anonymous"
+    ></script>
+
+    <title>Document</title>
+  </head>
+
+  <body>
+    <section class="sub-header">
+      <nav>
+        <a href=""><img src="img/logo.png" /></a>
+        <div class="homeburger">
+          <div class="line"></div>
+          <div class="line"></div>
+          <div class="line"></div>
+        </div>
+        <div class="nav-links">
+          <ul>
+            <li><a href="/index">HOME</a></li>
+            <li><a href="/about">ABOUT</a></li>
+            <li><a href="/course">COURSE</a></li>
+            <li><a href="/blog">BLOG</a></li>
+            <li><a href="/contact">CONTACT</a></li>
+            <li><a href="/">REGISTER</a></li>
+          </ul>
+        </div>
+      </nav>
+
+      <h1>Contact Us</h1>
+
+    </section>
+
+    <!-- Contact us page -->
+    <!-- <section class="location">
+        <iframe
+            src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d3652151.2747342857!2d73.87389695!3d26.630739750000004!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sin!4v1678893063863!5m2!1sen!2sin"
+            width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </section>
+
+
+
+    <section class="contact-us">
+        <div class="row">
+            <div class="contact-col">
+                <div>
+                    <!-- icons home -->
+    {{! <span>
+                        <h5>ABC ,ABA Building, 84</h5>
+                        <p>Bangore,Karnatak,IN</p>
+                    </span>
+                </div>
+                
+                <div> }}
+    <!-- icons phone -->
+    {{! <span>
+                        <h5>+1 9658745210</h5>
+                        <p>Monday to Suturday,10 AM to 2PM</p>
+                    </span>
+                </div>
+                <div> }}
+    <!-- icons email -->
+    {{! <span>
+                        <h5>kumaeatmans@gmail.com</h5>
+                        <p>Email Us Your Query</p>
+                    </span>
+                </div>
+            </div>
+            <div class="contact-col">
+                <form action="/contact" method="post">
+                    <input type="text" name="name" placeholder="Enter your name" required>
+                    <input type="email" name="email" placeholder="Enter your email" required>
+                    <input type="text" name="subject" placeholder="Enter your subject" required>
+                    <textarea name="message" placeholder="Message"  rows="8"></textarea>
+                    <button type="submit" class="hero-btn red-btn">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </section> }}
+
+    <div class="contactUs">
+      <div class="title">
+      </div>
+      <div class="box">
+        <!--Form-->
+        <div class="contact form">
+          <h3>Send a Message</h3>
+          <form
+            action="/contact"
+            onsubmit="sendDetails(); reset(); return false;"
+            method="post"
+          >
+            <div class="formBox">
+              <div class="row50">
+                <div class="inputBox">
+                  <span>First Name</span>
+                  <input
+                    id="firstname"
+                    type="text"
+                    placeholder="First Name"
+                    name="firstname"
+                    required
+                  />
+                </div>
+
+                <div class="inputBox">
+                  <span>Last Name</span>
+                  <input
+                    id="secondname"
+                    type="text"
+                    placeholder="Last Name"
+                    name="lastname"
+                    required
+                  />
+                </div>
+              </div>
+
+              <div class="row50">
+                <div class="inputBox">
+                  <span>Email</span>
+                  <input
+                    id="email"
+                    name="email"
+                    type="email"
+                    placeholder="Your Email"
+                    required
+                  />
+                </div>
+
+                <div class="inputBox">
+                  <span>Mobile No.</span>
+                  <input
+                    type="phone"
+                    name="phone"
+                    placeholder="+91 986 35412"
+                    required
+                  />
+                </div>
+              </div>
+
+              <div class="row100">
+                <div class="inputBox">
+                  <span>Subject</span>
+                  <input
+                    type="text"
+                    name="subject"
+                    placeholder="Enter your subject"
+                    required
+                  />
+                </div>
+                <div class="inputBox">
+                  <span>Message</span>
+                  <textarea
+                    id="message"
+                    placeholder="Write your message here..."
+                    name="message"
+                  ></textarea>
+                </div>
+              </div>
+
+              <div class="row100">
+                <div class="inputBox">
+                  <button type="submit">Send</button>
+                </div>
+              </div>
+            </div>
+          </form>
+        </div>
+        <!--infoBox-->
+        <div class="contact info">
+          <h3>Contact Info</h3>
+          <div class="infoBox">
+            <div>
+              <span><i class="fa-sharp fa-solid fa-location-dot"></i></span>
+              <p>Near Mahaveer Dal, Ward No:3,
+                Shrimadhopur,Sikar,332715
+            </div>
+
+            <div>
+              <span><i class="fa-solid fa-envelope"></i></span>
+              <a
+                href="mailto:mgpgcollagesmpr@gmail.com"
+              >mgpgcollagesmpr@gmail.com</a>
+            </div>
+
+            <div>
+              <span><i class="fa-solid fa-phone"></i></span>
+              <a href="tel:+919829638682">01575-250770</a>
+            </div>
+            <!--Social Media links-->
+            <ul class="sci">
+              <!-- <li><a href="#"><ion-icon name="logo-facebook"></ion-icon></a></li> -->
+              <li><a
+                  href="https://www.youtube.com/channel/UCLLhwBDWdymCPrtRFBq_Jyw"
+                ><i class="fa-brands fa-youtube"></i></a></li>
+              <li><a href="https://www.instagram.com/manish_kumawat_001/"><i
+                    class="fa-brands fa-instagram"
+                  ></i></a></li>
+              <li><a href="https://whatsapp.com/dl/"><i
+                    class="fa-brands fa-whatsapp"
+                  ></i></a></li>
+            </ul>
+          </div>
+        </div>
+        <!--Map-->
+        <div class="contact map">
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3540.315731419254!2d75.58960091498228!3d27.45942828289518!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x396ce7ca934167bf%3A0x2158c53eba02c3d2!2sMAHATMA%20GANDHI%20P.G.%20COLLEGE%2C%20SHRIMADHOPUR%20(SIKAR)%20RAJ.%20332715!5e0!3m2!1sen!2sin!4v1679047608249!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+      </div>
+    </div>
+
+    
+    <script>
+      const homeburger = document.querySelector(".homeburger");
+      homeburger.onclick = function () { const navBar =
+      document.querySelector(".nav-links"); navBar.classList.toggle("active"); }
+    </script>
+  </body>
+
+</html>

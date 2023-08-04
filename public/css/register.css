@@ -1,0 +1,139 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", sans-serif;
+  }
+  body {
+    background-color: rgba(177, 205, 255, 0.7);
+  }
+  h1 {
+    text-align: center;
+    font-weight: 600;
+    font-family: "Poppins", sans-serif;
+    color: #ff7373;
+    font-weight: bold;
+    font-family: "Poppins", sans-serif;
+  }
+  .container {
+    width: 25%;
+    height: 70vh;
+    border-radius: 5px;
+    margin: auto;
+    position: relative;
+    top: 40px;
+    background-color: #fff;
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2);
+  }
+  .container h2 {
+    margin: 15px;
+  }
+  form {
+    text-align: center;
+  }
+  .container form input {
+    height: 45px;
+    width: 90%;
+    outline: none;
+    font-size: 16px;
+    border-radius: 5px;
+    padding-left: 15px;
+    margin: 7px;
+    border: 1px solid #ccc;
+    border-bottom-width: 2px;
+    transition: all 0.3s ease;
+  }
+  
+  @media (max-width: 1048px) {
+    .container {
+      width: 100%;
+      border-radius: 5px;
+    }
+  }
+  button {
+    background: rgb(27, 27, 165);
+    width: 93%;
+    padding: 8px 15px;
+    color: #fff;
+    border-radius: 5px;
+    margin-top: 10px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background: linear-gradient(135deg, #df0606, #ffbd08);
+  }
+  .container p {
+    text-align: center;
+    padding-top: 10px;
+    color: rgb(63, 63, 63);
+  }
+  span a {
+    text-decoration: none;
+  }
+  
+  /* Login page */
+  
+  .container1 {
+    width: 30%;
+    height: 50vh;
+    margin: auto;
+    position: relative;
+    top: 40px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2);
+  }
+  .container1 h2 {
+    margin: 15px;
+  }
+  
+  form {
+    text-align: center;
+  }
+  .container1 form input {
+    height: 45px;
+    width: 90%;
+    outline: none;
+    font-size: 16px;
+    border-radius: 5px;
+    padding-left: 15px;
+    margin: 7px;
+    border: 1px solid #ccc;
+    border-bottom-width: 2px;
+    transition: all 0.3s ease;
+  }
+  
+  @media (max-width: 700px) {
+    .container1 {
+      width: 100%;
+      border-radius: 5px;
+    }
+  }
+  button {
+    background: rgb(27, 27, 165);
+    width: 93%;
+    padding: 8px 15px;
+    color: #fff;
+    border-radius: 5px;
+    margin-top: 10px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background: linear-gradient(135deg, #df0606, #ffbd08);
+  }
+  .container1 p {
+    text-align: center;
+    padding-top: 10px;
+    color: rgb(63, 63, 63);
+  }
+  span a {
+    text-decoration: none;
+  }
+  
+  .container1 img {
+    width: 50px;
+    position: relative;
+    left: 46%;
+  }
+  
