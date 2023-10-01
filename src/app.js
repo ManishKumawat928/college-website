@@ -1,7 +1,6 @@
 const express = require("express");
 const app = express();
 const conn = require("./db/conn");
-const conn1 = require("./db/conn1");
 const Register = require("./models/register");
 const Register1 = require("./models/register1");
 const port = process.env.PORT || 5000;
